@@ -1,18 +1,9 @@
-language
-:
-python
-python
-:
-3.9
-script
-:
-python -c "import os;print(os.getenv('TEST'));print(os.environ)"
-env
-:
-null
-global
-:
-null
-secure
-:
-null
+language: python
+python:
+  "3.9"
+script:
+  python -c "import os;print(os.getenv('TEST'));print(os.environ)"
+env:
+global:
+
+secure:
